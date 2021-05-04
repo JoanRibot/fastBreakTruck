@@ -6,11 +6,12 @@ public class FleepJuice extends Bebida{
     private final String nombre= "Fleep Juice";
     private final float price = 35;
 
+    @Override
     public String nombre(){
         return this.nombre;
     }
-
-    public float price(){
+    @Override
+    public float PVP(){
         return this.price;
     }
 }
